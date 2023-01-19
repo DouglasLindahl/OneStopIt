@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	background-color: #edeff2;
+	font-family: 'Open Sans',sans-serif;
+}
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+:root{
+    --button-color: #cfd7df;
+}

@@ -1,0 +1,252 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+}
+.heroImage{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.logotype{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+}
+.logotypeImage{
+    width: 100%;
+    object-fit: contain;
+}
+
+.buttonSection{
+    height: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonSection button{
+    background-color: var(--button-color);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-indent: 1px;
+    transition: background-color 425ms;
+}
+.buttonSection button:hover{
+    background-color: #2e9dff;
+}
+
+.servicesSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicesHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    white-space: normal;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.servicesHeader h1, h2{
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: 300;
+}
+.servicesHeader h1{
+    color: #676770;
+}
+.servicesHeader h2{
+    color: #69b9ff;
+}
+
+.servicesCards{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    row-gap: 20px;
+}
+.card{
+    width: 440px;
+    min-height: 260px;
+    max-height: 360px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dcebf7;
+    transition: background-color 425ms;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: #2e9dff;
+}
+.cardImage{
+    position: relative;
+    height: 48%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #69b9ff;
+    border-radius: 100%;
+    border: 10px solid white;
+    box-shadow: 0 0 0 1px #2e9dff;
+}
+.cardBackground{
+    position: absolute;
+    width: 120%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.cardImage img{
+    height: 70%;
+}
+.cardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 15px;
+    text-align: center;
+}
+.cardText h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    color: #676770;
+}
+.cardText p{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-indent: 1px;
+    color: #000;
+}
+
+.infoSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.infoSection div{
+    height: 50%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #676770;
+}
+.infoSection .imgSection{
+    width: 100%;
+    height: 40%;
+}
+.infoSection .imgSection img{
+    width: 90%;
+    object-fit: cover;
+}
+.infoSection h3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-align: center;
+}
+.infoSection p{
+    text-align: center;
+    width: 90%;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+
+
+.contactSection{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 80%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contactSection .contactSectionLogo, .ownerImage, .contactInfoSection{
+    display: flex;
+    justify-content: center;
+    width: 33.333%;
+    height: 100%;
+}
+.contactSection .contactSectionLogo img, .ownerImage img{
+    height: 70%;
+    object-fit: contain;
+}
+
+.contactInfo .contact div, .socialMedia div{
+    display: flex;
+    height: 30px;
+    padding-bottom: 10px;
+}
+.contactInfo p{
+    border-bottom: 1px solid #d5d5e0;
+    color: #668cad;
+    font-size: 14px;
+    font-weight: 300;
+    width: 135px;
+}
+.contactInfo img{
+    height: 60%;
+    padding-right: 10px;
+    object-fit: contain;
+}
+.contactInfo h4{
+    margin-bottom: 20px;
+    color: #676770;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+footer{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
