@@ -17,3 +17,6 @@ button{
 :root{
     --button-color: #cfd7df;
 }
+a {
+	text-decoration: none;
+  }

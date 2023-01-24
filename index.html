@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/settings.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>OneStopIt</title>
 </head>
 <body>
     <main>
         <section class="hero">
-            <img class = "heroImage" src="images/heroImage.png" alt="abstact blue and white image">
+            <img class = "heroImage" src="images/heroImage.webp" alt="abstact blue and white image">
             <section class="logotype">
-                <img class="logotypeImage" src="images/logotypeImage.png" alt="company logo">
+                <img class="logotypeImage" src="images/logotypeImage.webp" alt="company logo">
             </section>
         </section>
         <section class="buttonSection">
-            <button>KONTAKT</button>
-            <button>OM OSS</button>
+            <button aria-label="Contact Us">KONTAKT</button>
+            <button aria-label="About Us">OM OSS</button>
         </section>
         <section class="servicesSection">
-            <section class="servicesHeader">
+            <section class="servicesHeader" aria-label="Services offered by One Stop IT">
                 <h1>DIN IT-KONSULT / RÅDGIVARE</h1>
                 <h2>VÅRA TJÄNSTER</h2>
             </section>
@@ -29,8 +29,8 @@
         </section>
         <section class="infoSection">
             <div>
-                <div class="imgSection">
-                    <img src="images/chatBubbles.png" alt="">
+                <div class="imgSection" aria-label="Chat Bubbles Image">
+                    <img src="images/chatBubbles.webp" alt="Chat bubbles">
                 </div>
                 <h3>KONTAKT</h3>
                 <p>För oss är det viktigt att vara lättillgänglig, oavsett om
@@ -38,8 +38,8 @@
                     Därför är vår support högst upp på prioriteringslistan.</p>
             </div>
             <div>
-                <div class="imgSection">
-                    <img src="images/logotypeImage.png" alt="">
+                <div class="imgSection" aria-label="Company logotype">
+                    <img src="images/logotypeImage.webp" alt="Company logotype">
                 </div>
                 <h3>OM OSS</h3>
                 <p>Vi på One Stop IT besitter en mängd olika
@@ -49,44 +49,47 @@
             </div>
         </section>
     
-        <section class="contactSection">
-            <div class="contactSectionLogo">
-                <img src="images/logotypeImage.png" alt="">
+        <section class="contactSection" aria-label="Contact Information">
+            <div class="contactSectionLogo" aria-label="Company Logo">
+              <div class="img" style="background-image:url('images/logotypeImage.webp');"></div>
             </div>
-            <div class="ownerImage">
-                <img src="images/owner.png" alt="">
+            <div class="managerImage" aria-label="Managers's Image">
+              <div class="img" style="background-image:url('images/manager.webp');"></div>
             </div>
-            <div class="contactInfoSection">
-                <div class="contactInfo">
-                    <div class="contact">
-                        <h4>KONTAKT</h4>
-                        <div class="phoneNumber">
-                            <img src="images/phone.svg" alt="">
-                            <p>073 - 386 56 68</p>
-                        </div>
-                        <div class="email">
-                            <img src="images/email.svg" alt="">
-                            <p>charlie@onestopit.se</p>
-                        </div>
-                    </div>
-                    <div class="socialMedia">
-                        <h4>SOCIAL</h4>
-                        <div class="linkedin">
-                            <img src="images/linkedin.svg" alt="">
-                            <p>Linkedin</p>
-                        </div>
-                        <div class="Instagram">
-                            <img src="images/instagram.svg" alt="">
-                            <p>Instagram</p>
-                        </div>
-                        <div class="Facebook">
-                            <img src="images/facebook.svg" alt="">
-                            <p>Facebook</p>
-                        </div>
-                    </div>
+            <div class="contactInfoSection" aria-label="Contact and Social Media Information">
+              <div class="contactInfo">
+                <div class="contact" aria-label="Contact Information">
+                  <h4>KONTAKT</h4>
+                  <div class="phoneNumber" aria-label="Phone Number">
+                    <div class="linkImg" style="background-image:url('images/phone.svg');"></div>
+                    <a href="tel:+46733865668">073 - 386 56 68</a>
+                  </div>
+                  <div class="email" aria-label="Email">
+                    <div class="linkImg" style="background-image:url('images/email.svg');"></div>
+                    <a href="mailto:charlie@onestopit.se">charlie@onestopit.se</a>
+                  </div>
                 </div>
+                <div class="socialMedia" aria-label="Social Media Information">
+                  <h4>SOCIAL</h4>
+                  <div class="linkedin" aria-label="LinkedIn">
+                    <div class="linkImg" style="background-image:url('images/linkedin.svg');"></div>
+                    <a href="">Linkedin</a>
+                  </div>
+                  <div class="Instagram" aria-label="Instagram">
+                    <div class="linkImg" style="background-image:url('images/instagram.svg');"></div>
+                    <a href="">Instagram</a>
+                  </div>
+                  <div class="Facebook" aria-label="Facebook">
+                    <div class="linkImg" style="background-image:url('images/facebook.svg');"></div>
+                    <a href="">Facebook</a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
+
+
+          
     </main>
     <footer>
 
