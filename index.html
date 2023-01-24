@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/logotypeImage.webp">
     <link rel="stylesheet" href="css/settings.css">
     <link rel="stylesheet" href="css/style.css">
     <title>OneStopIt</title>
@@ -92,7 +93,12 @@
           
     </main>
     <footer>
-
+        <p></p>
+        <script>
+            const currentYear = new Date().getFullYear();
+            const copyrightNotice = `Copyright © ${currentYear} Onestopit. All rights reserved.`;
+            document.querySelector("footer p").textContent = copyrightNotice;
+        </script>
     </footer>
     <script src="services.js"></script>
 </body>
